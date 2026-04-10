@@ -121,7 +121,7 @@ body{
   background-color: #6AC9FF;
   padding: 5px;
   margin: 10px;
-  top: 500px;
+  bottom: 50px;
   left: 630px;
   width: 220px;
   height: 110px;
@@ -150,7 +150,7 @@ body{
   background-color: #deff07;
   padding: 5px;
   margin: 10px;
-  top: 500px;
+  bottom: 50px;
   left: 930px;
   width: 220px;
   height: 110px;
