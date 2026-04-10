@@ -1,0 +1,175 @@
+body{
+  margin: 0;
+  background-color: #D1D1D1;
+
+}
+
+.container{
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.road{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(40, 183, 49);
+  position: fixed;
+  top: 35vh;
+  display: flex;
+  overflow:hidden;
+}
+
+.car{
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  left: 0;
+  background-color: black;
+}
+.data{
+  margin-left: 20px;
+ height: 200px;
+ width: 90%;
+ display: flex;
+ justify-content: center;
+  align-items: center;
+
+}
+ span{
+  margin: 5px;
+  padding: 5px;
+  font-size: 80px;
+  height:120px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trail{
+  width: 100%;
+  background-color: black;
+  height: 200px;
+  left: 400px;
+  position: absolute;
+  z-index: 100;
+}
+.stat1{
+  opacity: 0;
+  position: fixed;
+  background-color: #deff07;
+  padding: 5px;
+  margin: 10px;
+  top: 50px;
+  left: 680px;
+  width: 200px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #deff07 ;
+  border-radius: 10px;
+}
+.stat1 span{
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-align: center;
+}
+.stat1 p{
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  text-align: center;
+}
+.stat2{
+  opacity: 0;
+  position: fixed;
+  background-color: #333333;
+  padding: 5px;
+  margin: 10px;
+  top: 50px;
+  left: 980px;
+  width: 200px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #333333 ;
+  border-radius: 10px;
+}
+.stat2 span{
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+.stat2 p{
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  text-align: center;
+}
+.stat3{
+  opacity: 0;
+  position: fixed;
+  background-color: #6AC9FF;
+  padding: 5px;
+  margin: 10px;
+  top: 500px;
+  left: 630px;
+  width: 220px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #6AC9FF ;
+  border-radius: 10px;
+}
+.stat3 span{
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-align: center;
+}
+.stat3 p{
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  text-align: center;
+}
+.stat4{
+  opacity: 0;
+  position: fixed;
+  background-color: #deff07;
+  padding: 5px;
+  margin: 10px;
+  top: 500px;
+  left: 930px;
+  width: 220px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #deff07 ;
+  border-radius: 10px;
+}
+.stat4 span{
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-align: center;
+}
+.stat4 p{
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  text-align: center;
+}
